@@ -12,6 +12,7 @@ namespace Session02
         {
             baitap_01();
             //baitap_02();
+            baitap_02c();
             //baitap_03();
             //baitap_04();
             //baitap_05();
@@ -42,6 +43,18 @@ namespace Session02
             int temp = a;
             a = b;
             b = temp;
+            Console.WriteLine($"after swap a={a}, b={b}");
+        }
+        static void baitap_02c()
+        {
+            Console.WriteLine("Nhap so a:");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Nhap so b:");
+            int b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"before swap a={a}, b={b}");
+            a = a + b;
+            b = a - b;
+            a = a - b;
             Console.WriteLine($"after swap a={a}, b={b}");
         }
         static void baitap_03()
