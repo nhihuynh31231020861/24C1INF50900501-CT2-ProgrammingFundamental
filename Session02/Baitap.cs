@@ -12,7 +12,7 @@ namespace Session02
         {
             baitap_01();
             //baitap_02();
-            baitap_02c();
+            //baitap_02_cach2();
             //baitap_03();
             //baitap_04();
             //baitap_05();
@@ -45,7 +45,7 @@ namespace Session02
             b = temp;
             Console.WriteLine($"after swap a={a}, b={b}");
         }
-        static void baitap_02c()
+        static void baitap_02_cach2()
         {
             Console.WriteLine("Nhap so a:");
             int a = Convert.ToInt32(Console.ReadLine());
